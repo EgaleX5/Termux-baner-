@@ -6,20 +6,23 @@ This project creates a customizable logo animation for Termux with user input.
 - Displays a user-defined banner in the terminal with an animated logo.
 - Easy to use with simple setup.
 
+  ## step by step guide 👇
+  
+
 ## Instalation 
 
-   pkg update && pkg upgrade
+    pkg update && pkg upgrade
    
-   pkg install python git
+    pkg install python git
    
     pkg install python git
 
-git clone https://github.com/EgaleX5/Termux-baner-.git
+    git clone https://github.com/EgaleX5/Termux-baner-.git
 
-cd Termux-baner-
+    cd Termux-baner-
 
-bash setup_header.sh
+    bash setup_header.sh
 
 ## run
 
-python3 logo_animation.py
+    python3 logo_animation.py
