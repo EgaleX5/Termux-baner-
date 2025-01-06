@@ -12,7 +12,7 @@ This project creates a customizable logo animation for Termux with user input.
    
    pkg install python git
    
-pkg install python git
+    pkg install python git
 
 git clone https://github.com/EgaleX5/Termux-baner-.git
 
@@ -20,6 +20,6 @@ cd Termux-baner-
 
 bash setup_header.sh
 
-#run
+## run
 
 python3 logo_animation.py
