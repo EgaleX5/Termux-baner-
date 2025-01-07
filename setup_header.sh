@@ -1,7 +1,17 @@
 #!/bin/bash
 
+# Check if username is already saved
+if [ ! -f "$HOME/.user_name" ]; then
+    echo "Enter your name:"
+    read username
+    echo $username > $HOME/.user_name
+else
+    username=$(cat $HOME/.user_name)
+fi
+
 # Path to the python script
 SCRIPT_PATH="$HOME/Termux-baner-/logo_animation.py"
+
 # Check if the Python script exists
 if [ ! -f "$SCRIPT_PATH" ]; then
     echo "Python script not found! Make sure logo_animation.py is in the repository directory."
