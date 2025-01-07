@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Path to the python script
-SCRIPT_PATH="$HOME/logo-animation-header/logo_animation.py"
-
+SCRIPT_PATH="$HOME/Termux-baner-/logo_animation.py"
 # Check if the Python script exists
 if [ ! -f "$SCRIPT_PATH" ]; then
     echo "Python script not found! Make sure logo_animation.py is in the repository directory."
